@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentage-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentage.io/
+Agentage provides a shared markdown memory layer for AI assistants like Claude, ChatGPT, Cursor, and others. Users can store notes, decisions, and context in plain markdown, which is EU‑hosted, exportable, and portable across tools. The platform emphasizes privacy, open data formats, and avoids lock‑in, offering a collaborative memory that syncs across multiple AI interfaces without requiring API keys.
+
+**Areas:** Company · AI · Memory · Collaboration · Privacy · EU-Hosted
+
+## agentage-io on APIs.io
+
+Everything profiled for agentage-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentage-io/](https://apis.io/providers/agentage-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Agentage Memory REST API](https://apis.io/apis/agentage-io/agentage-memory-rest-api/) — Read and write your memories over plain HTTPS, using the same OAuth token your MCP clients already use. No SDK, no API key.
+- [agentage-io API](https://apis.io/apis/agentage-io/agentage-io-api/) — agentage-io API as documented publicly: 11 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1MemoriesMemoryNotesPathResponse](https://apis.io/schemas/agentage-io/agentage-io-get-v1-memories-memory-notes-path-response/)
+- [GetV1MemoriesMemoryNotesResponse](https://apis.io/schemas/agentage-io/agentage-io-get-v1-memories-memory-notes-response/)
+- [GetV1MemoriesMemorySearchResponse](https://apis.io/schemas/agentage-io/agentage-io-get-v1-memories-memory-search-response/)
+- [GetV1MemoriesResponse](https://apis.io/schemas/agentage-io/agentage-io-get-v1-memories-response/)
+- [PatchV1MemoriesMemoryNotesPathRequest](https://apis.io/schemas/agentage-io/agentage-io-patch-v1-memories-memory-notes-path-request/)
+- [PostV1MemoriesResponse](https://apis.io/schemas/agentage-io/agentage-io-post-v1-memories-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentage Io Context](https://apis.io/jsonld/agentage-io/agentage-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [agentage-io API Rules](https://apis.io/rules/agentage-io/agentage-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentage Io Authentication](https://apis.io/security/agentage-io/agentage-io-authentication/)
+- [Agentage Io Domain Security](https://apis.io/security/agentage-io/agentage-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentage Io Scopes](https://apis.io/scopes/agentage-io/agentage-io-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentage.io/)
+- [Documentation](https://agentage.io/docs)
+- [Getting started](https://agentage.io/docs)
+- [Support](https://agentage.io/contacts)
+- [Blog](https://agentage.io/blog)
+- [Terms of service](https://agentage.io/terms)
+- [Privacy policy](https://agentage.io/privacy)
+- [GitHub](https://github.com/agentage)
+
+## API Evangelist rating
+
+**Kin Score 45.5** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.7 |
+| Contract governance | 70.9 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 46.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentage-io/](https://apis.io/providers/agentage-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agentage-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentage-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
