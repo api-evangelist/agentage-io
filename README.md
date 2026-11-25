@@ -66,7 +66,7 @@
 
 Agentage provides a shared markdown memory layer for AI assistants like Claude, ChatGPT, Cursor, and others. Users can store notes, decisions, and context in plain markdown, which is EU‑hosted, exportable, and portable across tools. The platform emphasizes privacy, open data formats, and avoids lock‑in, offering a collaborative memory that syncs across multiple AI interfaces without requiring API keys.
 
-**Areas:** Company · AI · Memory · Collaboration · Privacy · EU-Hosted
+**Areas:** Company · Artificial Intelligence · Memory · Collaboration · Privacy · EU-hosted
 
 ## agentage-io on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for agentage-io is published on APIs.io rather than in this 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentage-io-mcp.yml](https://apis.io/servers/agentage-io/agentage-io-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -108,14 +114,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentage Io Authentication](https://apis.io/security/agentage-io/agentage-io-authentication/)
-- [Agentage Io Domain Security](https://apis.io/security/agentage-io/agentage-io-domain-security/)
+- [agentage-io Authentication](https://apis.io/security/agentage-io/agentage-io-authentication/)
+- [agentage-io Domain Security](https://apis.io/security/agentage-io/agentage-io-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentage Io Scopes](https://apis.io/scopes/agentage-io/agentage-io-scopes/)
+- [agentage-io Scopes](https://apis.io/scopes/agentage-io/agentage-io-scopes/)
 
 ## Where to find this API
 
@@ -132,18 +138,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 45.5** — developing · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 34.1** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 55.7 |
-| Contract governance | 70.9 |
-| Operational transparency | 13.2 |
+| Discoverability | 75.0 |
+| Contract quality | 26.1 |
+| Contract governance | 19.7 |
+| Operational transparency | 11.9 |
 | Developer ergonomics | 40.5 |
-| Access clarity | 21.1 |
+| Access clarity | 31.9 |
 
-**Agent readiness 46.1** — agent-ready (gated down from agent-native)
+**Agent readiness 42.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -158,7 +164,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -168,8 +174,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentage-io/](https://apis.io/providers/agentage-io/).
 
